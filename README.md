@@ -51,7 +51,7 @@ Built with plain **JavaScript + HTML + CSS** (no frameworks).
 
 ## Folder Structure
 
-.
+
 ├── index.html
 
 ├── styles.css
@@ -60,8 +60,8 @@ Built with plain **JavaScript + HTML + CSS** (no frameworks).
 
 └── img/
 
-├── Pause.png
+    ├── Pause.png
 
-├── counting.png
+    ├── counting.png
 
-└── start.png
+    └── start.png
