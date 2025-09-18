@@ -1,0 +1,57 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    padding: 32px;
+}
+
+.timer {
+    font-size: 64px;
+    letter-spacing: 2px;
+    font-variant-numeric: tabular-nums;
+}
+
+.controls {
+    display: flex;
+    gap: 8px;
+}
+
+button {
+    padding: 8px 14px;
+    font-size: 16px;
+    cursor: pointer
+}
+
+button:disabled {
+    opacity: .5;
+    cursor: not-allowed
+}
+
+#startBtn {
+    background-color :green;
+    color: white;
+}
+#startBtn:disabled {
+    background-color :rgb(81, 99, 81);
+    color: grey;
+}
+
+#pauseBtn {
+    background-color :red;
+    color: white;
+
+}
+#pauseBtn:disabled {
+    background-color :rgb(113, 89, 89);
+    color: grey;
+
+}
+
+
+#resetBtn {
+    background-color :blue;
+    color: white;
+
+}
