@@ -53,9 +53,15 @@ Built with plain **JavaScript + HTML + CSS** (no frameworks).
 
 .
 ├── index.html
+
 ├── styles.css
+
 ├── app.js
+
 └── img/
+
 ├── Pause.png
+
 ├── counting.png
+
 └── start.png
